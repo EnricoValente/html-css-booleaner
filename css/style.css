@@ -1,20 +1,20 @@
+        /* HEADER CSS */
 #container{
-
+    height: 100px;
     background-color:rgba(0,0,255,0.5);
     background-image:url(../img/pattern.png);
-    background-size: contain;
-    background-repeat:repeat;
+    background-size: 30%;
+}
    
+#logo{
+    height: 60px;
 }
     
-#logo{
-    width: 150px;
-}
-
 .special{
     font-size: x-small;
     color: lightgrey;
 }
+
 
 #blog{
     color: lightblue;
@@ -23,7 +23,25 @@
 .caption{
     font-size: x-small;
 }
+        /* FINE CSS HEADER */
 
+
+        
+        
+        /* INIZIO CSS MAIN */
+#thead-color{
+    background-color: #20A9E5;
+    color: white;
+    text-align: left;
+}
+
+.odd-row{
+    background-color: #B1E5F2;
+}
+
+.cell-width{
+    width: 50%;
+}
 
 
 
